@@ -1,0 +1,7 @@
+ch = input("Enter a character: ")
+if(ch>='a' and ch<= 'z'):
+    print("given input is lower case and",ch,"is a alphabet")
+elif (ch>='A' and ch<='Z'):
+    print("given input is upper case and",ch,"is a alphabet")
+elif (ch>='0' and ch<='9'):
+    print("given input ",ch,"is a digit")
