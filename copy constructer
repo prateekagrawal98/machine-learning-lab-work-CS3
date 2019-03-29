@@ -1,0 +1,13 @@
+class rectangle:
+    def __init__(self,ln=0,br=0):
+        self.ln=ln
+        self.br=br
+    def calArea(self,rc):
+         area=rc.ln*rc.br
+         print ("area=",area)
+         
+length=int(input("enter length: "))
+breadth=int(input("enter breadth: "))
+a=rectangle(length,breadth)
+b=rectangle()
+b.calArea(a)
