@@ -2,8 +2,8 @@ class rectangle:
     def __init__(self,ln=0,br=0):
         self.ln=ln
         self.br=br
-    def calArea(self,rc):
-         area=rc.ln*rc.br
+    def calArea(self,a):
+         area=a.ln*a.br
          print ("area=",area)
          
 length=int(input("enter length: "))
